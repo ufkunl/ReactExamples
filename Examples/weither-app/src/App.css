@@ -1,0 +1,25 @@
+.App {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  min-height: 100vh;
+}
+
+.header {
+  min-width: 500px;
+  height: 30px;
+  float: inline-end;
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+.header .citiesComboBox{
+  padding: 5px;
+}
+
+.weather-list {
+    min-width: 500px;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+}
